@@ -1,0 +1,10 @@
+{
+    "telemetry.telemetryLevel": "off",
+    "telemetry.enableCrashReporter": false,
+    "telemetry.enableTelemetry": false,
+    "code-runner.enableAppInsights": false,
+    "update.mode": "none",
+    "extensions.autoUpdate": false,
+    "extensions.ignoreRecommendations": true
+}
+

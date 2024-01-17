@@ -1,0 +1,12 @@
+
+### BEGIN VSCODE CONFIGURATION
+
+# Taken from https://www.reddit.com/r/privacy/comments/80d8wu/comment/duvaf76/
+127.0.0.1 dc.services.visualstudio.com
+127.0.0.1 marketplace.visualstudio.com
+127.0.0.1 dc.trafficmanager.net
+127.0.0.1 vortex.data.microsoft.com
+127.0.0.1 weu-breeziest-in.cloudapp.net
+
+### END VSCODE CONFIGURATION
+
