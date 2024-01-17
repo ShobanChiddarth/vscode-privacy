@@ -2,16 +2,26 @@
 
 ## Important Notice (for Windows Users)
 
+- **Command execution**: You Windows users should open command prompt in admin mode and run the commands
+                         mentioned here without the `sudo` part.
 - **Privacy Concerns**: It is well known that Microsoft collects your data even if you don't use VSCode.
 - **Recommendation**: Like every other Linux user, I am suggesting you to switch to Linux, for enhanced privacy.
 - **Alternative Option**: However if it is impossible at the moment, like if you are in a school computer,
-   - watch [this video](https://www.youtu.be/SvhRXLmsyJ8),
-   - and visit [this link](https://briteccomputers.co.uk/posts/stop-windows-spying-on-you-2/)
+   - Watch [this video](https://www.youtu.be/SvhRXLmsyJ8),
+   - and Visit [this link](https://briteccomputers.co.uk/posts/stop-windows-spying-on-you-2/)
    
    to stop the data collection (not a foolproof way but works to some extent).
    I have visited and tested what is said in the links myself and it works fine. I recommend you too try doing it
-   and test it with Wireshark if you want to,
-- **Note**: You can't stop it 100% because Windows is propertiary spyware and that is why you should switch to Linux.
+   and test it with Wireshark if you want to.
+- **Host file location**: Your hosts file is at `C:\Windows\System32\driver\etc\hosts`
+- **Error Handling**: If Python throws errors while trying to open your hosts file, or if you are unable to
+   open it manually and you are not even able to do it even after taking full ownership,
+   1. Copy the file `C:\Windows\System32\driver\etc\hosts.backup` to your desktop.
+   2. Rename it to `hosts`
+   3. Follow the guides linked above and update the file in your desktop accordingly
+   4. Delete the original host file
+   5. Copy the file in your desktop to the original location. Now you will be able to update it or edit it.
+- **Note**: You can't stop it 100% because Windows is proprietary spyware and that's why you should switch to Linux.
 
 
 ## Who is this for?
