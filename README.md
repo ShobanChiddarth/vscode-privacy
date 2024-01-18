@@ -13,10 +13,10 @@
    to stop the data collection (not a foolproof way but works to some extent).
    I have visited and tested what is said in the links myself and it works fine. I recommend you too try doing it
    and test it with Wireshark if you want to.
-- **Host file location**: Your hosts file is at `C:\Windows\System32\driver\etc\hosts`
+- **Host file location**: Your hosts file is at `C:\Windows\System32\drivers\etc\hosts`
 - **Error Handling**: If Python throws errors while trying to open your hosts file, or if you are unable to
    open it manually and you are not even able to do it even after taking full ownership,
-   1. Copy the file `C:\Windows\System32\driver\etc\hosts.backup` to your desktop.
+   1. Copy the file `C:\Windows\System32\drivers\etc\hosts.backup` to your desktop.
    2. Rename it to `hosts`
    3. Follow the guides linked above and update the file in your desktop accordingly
    4. Delete the original host file
