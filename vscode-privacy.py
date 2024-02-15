@@ -3,7 +3,7 @@ import  os
 import sys
 import json
 
-SETTINGS_DOT_JSON = "/home/shobanchiddarth/.config/Code/User/settings.json"
+SETTINGS_DOT_JSON = "/home/bread_brother/.config/Code/User/settings.json"
 HOSTS_FILE = "/etc/hosts"
 
 if os.path.exists("./assets/settings_default.json"):
@@ -52,7 +52,7 @@ def decrease_privacy():
     with open("./assets/settings_default.json", "r", newline='\n') as fh:
         final_json_data = fh.read()
     with open(SETTINGS_DOT_JSON, 'w', newline='\n') as fh:
-        fh.write(final_json_data, indent=4)
+        fh.write(final_json_data)
 
 if len(sys.argv)>2:
     raise SyntaxError("Only 1 argument allowed")
